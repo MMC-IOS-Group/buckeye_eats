@@ -31,6 +31,9 @@
 		7104140316C04BFB00663617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710413CA16C04BFA00663617 /* Foundation.framework */; };
 		7104140B16C04BFB00663617 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7104140916C04BFB00663617 /* InfoPlist.strings */; };
 		7104140E16C04BFB00663617 /* BuckeyeEatsMMCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104140D16C04BFB00663617 /* BuckeyeEatsMMCTests.m */; };
+		7104141A16C04C8B00663617 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104141816C04C8B00663617 /* ThirdViewController.m */; };
+		7104141B16C04C8B00663617 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7104141916C04C8B00663617 /* ThirdViewController.xib */; };
+		7104141E16C04E4C00663617 /* FoodListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7104141D16C04E4C00663617 /* FoodListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,11 @@
 		7104140A16C04BFB00663617 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7104140C16C04BFB00663617 /* BuckeyeEatsMMCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuckeyeEatsMMCTests.h; sourceTree = "<group>"; };
 		7104140D16C04BFB00663617 /* BuckeyeEatsMMCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuckeyeEatsMMCTests.m; sourceTree = "<group>"; };
+		7104141716C04C8B00663617 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		7104141816C04C8B00663617 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		7104141916C04C8B00663617 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		7104141C16C04E4C00663617 /* FoodListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodListTableViewController.h; sourceTree = "<group>"; };
+		7104141D16C04E4C00663617 /* FoodListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,8 @@
 				710413D816C04BFA00663617 /* AppDelegate.m */,
 				710413E016C04BFA00663617 /* FirstViewController.h */,
 				710413E116C04BFA00663617 /* FirstViewController.m */,
+				7104141716C04C8B00663617 /* ThirdViewController.h */,
+				7104141816C04C8B00663617 /* ThirdViewController.m */,
 				710413E316C04BFA00663617 /* first.png */,
 				710413E516C04BFA00663617 /* first@2x.png */,
 				710413E716C04BFA00663617 /* SecondViewController.h */,
@@ -145,9 +155,10 @@
 				710413EA16C04BFA00663617 /* second.png */,
 				710413EC16C04BFA00663617 /* second@2x.png */,
 				710413EE16C04BFA00663617 /* FirstViewController_iPhone.xib */,
-				710413F116C04BFA00663617 /* FirstViewController_iPad.xib */,
 				710413F416C04BFA00663617 /* SecondViewController_iPhone.xib */,
-				710413F716C04BFA00663617 /* SecondViewController_iPad.xib */,
+				7104141916C04C8B00663617 /* ThirdViewController.xib */,
+				7104141C16C04E4C00663617 /* FoodListTableViewController.h */,
+				7104141D16C04E4C00663617 /* FoodListTableViewController.m */,
 				710413CF16C04BFA00663617 /* Supporting Files */,
 			);
 			path = BuckeyeEatsMMC;
@@ -156,6 +167,8 @@
 		710413CF16C04BFA00663617 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				710413F116C04BFA00663617 /* FirstViewController_iPad.xib */,
+				710413F716C04BFA00663617 /* SecondViewController_iPad.xib */,
 				710413D016C04BFA00663617 /* BuckeyeEatsMMC-Info.plist */,
 				710413D116C04BFA00663617 /* InfoPlist.strings */,
 				710413D416C04BFA00663617 /* main.m */,
@@ -269,6 +282,7 @@
 				710413F316C04BFA00663617 /* FirstViewController_iPad.xib in Resources */,
 				710413F616C04BFA00663617 /* SecondViewController_iPhone.xib in Resources */,
 				710413F916C04BFA00663617 /* SecondViewController_iPad.xib in Resources */,
+				7104141B16C04C8B00663617 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +321,8 @@
 				710413D916C04BFA00663617 /* AppDelegate.m in Sources */,
 				710413E216C04BFA00663617 /* FirstViewController.m in Sources */,
 				710413E916C04BFA00663617 /* SecondViewController.m in Sources */,
+				7104141A16C04C8B00663617 /* ThirdViewController.m in Sources */,
+				7104141E16C04E4C00663617 /* FoodListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
