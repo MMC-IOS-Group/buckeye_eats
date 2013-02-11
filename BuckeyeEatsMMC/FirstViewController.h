@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FoodListTableView.h"
 
 @interface FirstViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet FoodListTableView *foodList;
 
 @end
